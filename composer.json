@@ -1,0 +1,28 @@
+{
+    "name": "moreiraandre2/imobiliaria",
+    "description": "Voting System",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "André Moreira",
+            "email": "andreinformatica@terra.com.br",
+            "role": "Developer",
+            "homepage": "https://github.com/moreiraandre2"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        
+    }
+}
